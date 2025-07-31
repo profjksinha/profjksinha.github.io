@@ -1,12 +1,42 @@
-# React + Vite
+# Dr. Jitendra Kumar Sinha - Neuroscientist Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![GitHub Pages](https://img.shields.io/badge/Deployed_on-GitHub_Pages-blue?logo=github)](https://pages.github.com/) 
+[![Built with Vite](https://img.shields.io/badge/Built_with-Vite-646CFF?logo=vite)](https://vitejs.dev/)
+[![React](https://img.shields.io/badge/React-61DAFB?logo=react)](https://reactjs.org/)
 
-Currently, two official plugins are available:
+A modern portfolio website for **Dr. Jitendra Kumar Sinha**, Chief Scientific Officer at GloNeuro and accomplished neuroscientist, showcasing his research, publications, and academic contributions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Website Preview](./public/preview.jpg) <!-- Add a preview image if available -->
 
-## Expanding the ESLint configuration
+## About Dr. Jitendra Kumar Sinha
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🧠 **Chief Scientific Officer** at GloNeuro and **Visiting Faculty** at Jiwaji University
+- 🔬 PhD in Biochemistry with 60+ publications in journals like *The Lancet* and *Ageing Research Reviews*
+- 🌍 Recipient of 15+ international fellowships (IBRO, ISN, FENS)
+- 📚 Editor for *Journal of Alzheimer's Disease* and *Scientific Reports*
+- 🎓 Mentor to 25+ PhD/MSc students in neuroscience
+
+**Research Focus**: Neurodegenerative disorders, aging, oxidative stress, mitochondrial therapeutics, and neuropharmacology.
+
+## Website Features
+
+- ⚡ **Blazing fast** performance with Vite + React
+- 📱 **Fully responsive** design for all devices
+- 🎨 Modern UI with animated sections
+- 📝 Dynamic publication listing
+- 📊 Interactive timeline of professional achievements
+
+## Technologies Used
+
+- Frontend: ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white) ![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white)
+- Styling: ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3) 
+- Deployment: ![GitHub Pages](https://img.shields.io/badge/-GitHub_Pages-222?logo=github)
+
+## Developer Information
+
+**Kshitij Vashisth**  
+Full-stack developer and collaborator on Dr. Sinha's research projects.
+
+- 🛠️ Built this portfolio to showcase Dr. Sinha's scientific contributions
+- 📫 Contact: [Kshitij Vashisth's Email](mailto:kshitijvashisth@gmail.com)
+- 🔗 Portfolio: [Kshitij Vashisth's Portfolio](https://kshitij-vashisth.github.io/)
