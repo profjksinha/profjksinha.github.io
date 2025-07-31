@@ -15,7 +15,8 @@ export default function About() {
       </header>
 
       <section className="about-text">
-        <p>Your about text here...Your about text here...Your about text here...Your about text here...Your about text here...Your about text here...Your about text here...Your about text here...Your about text here...Your about text here...Your about text here...Your about text here...Your about text here...Your about text here...Your about text here...</p>
+        <p>Your about text here...Your about text here...Your about text here...Your about text here...Your about text here...Your about text here...Your about text here...Your about text here...Your about text here...Your about text here...Your about text here...Your about text here...Your about text here...Your about text here...Your about text here...aloo
+        </p>
       </section>
 
       <section className="service">
