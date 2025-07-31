@@ -10,6 +10,20 @@
   text-align: justify !important;
 }
 
+.custom-green {
+  color: #20C20E !important;
+}
+
+.custom-yellow {
+  color: #F6DB71 !important;
+}
+
+.about-icons {
+  color: #F6DB71 !important;
+  margin: auto !important;
+  transform: scale(2.50) !important;
+}
+
 
 
 :root {
@@ -314,12 +328,12 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 112px;
+  max-height: fit-content !important;
   overflow: hidden;
   transition: var(--transition-2);
 }
 
-.sidebar.active { max-height: 405px; }
+.sidebar.active { max-height: fit-content; }
 
 .sidebar-info {
   position: relative;

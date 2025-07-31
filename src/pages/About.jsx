@@ -1,5 +1,14 @@
 // pages/About.jsx
+
+import { HugeiconsIcon } from '@hugeicons/react';
+import { TestTube02Icon } from '@hugeicons/core-free-icons';
+import { MedicineBottle01Icon } from '@hugeicons/core-free-icons';
+import { MentorIcon } from '@hugeicons/core-free-icons';
+import { NewsIcon } from '@hugeicons/core-free-icons';
+
 import SplashCursor from '../components/SplashCursor'
+
+
 
 
 
@@ -35,8 +44,63 @@ export default function About() {
       <section className="service">
         <h3 className="h3 service-title force-left">What I'm doing</h3>
         <ul className="service-list">
-          {/* Service items here */}
-        </ul>
+
+  <li className="service-item">
+    <div className="service-icon-box about-icons">
+      {/* <MdOutlineScience /> */}
+      <HugeiconsIcon icon={TestTube02Icon} />
+    </div>
+
+    <div className="service-content-box">
+      <h4 className="h4 service-item-title">Neuroscience Research</h4>
+      <p className="service-item-text">
+        Pioneering studies on aging, neurodegeneration, and metabolic brain disorders with 60+ publications in high-impact journals.
+      </p>
+    </div>
+  </li>
+  
+  <li className="service-item">
+    <div className="service-icon-box about-icons">
+      <HugeiconsIcon icon={MedicineBottle01Icon} />
+    </div>
+
+    <div className="service-content-box">
+      <h4 className="h4 service-item-title">Neurotherapeutics Development</h4>
+      <p className="service-item-text">
+        Exploring innovative treatments for Alzheimer's, epilepsy, and spinal cord injuries through molecular and cellular approaches.
+      </p>
+    </div>
+  </li>
+
+  <li className="service-item">
+    <div className="service-icon-box about-icons">
+      <HugeiconsIcon icon={MentorIcon} />
+    </div>
+
+    <div className="service-content-box">
+      <h4 className="h4 service-item-title">Academic Mentorship</h4>
+      <p classname="service-item-text">
+        Guiding 25+ Ph.D. and M.Sc. students in neuroscience research and career development at premier institutions.
+      </p>
+    </div>
+  </li>
+
+  <li className="service-item">
+    <div className="service-icon-box about-icons">
+      <HugeiconsIcon icon={NewsIcon} />
+    </div>
+
+    <div className="service-content-box">
+      <h4 className="h4 service-item-title">Scientific Editorial Work</h4>
+      <p className="service-item-text">
+        Serving as Editor for journals like <em>Journal of Alzheimer's Disease</em> and reviewing for <em>The Lancet</em> and <em>Nature</em> publications.
+      </p>
+    </div>
+  </li>
+
+</ul>
+
+
       </section>
 
       <section className="clients">

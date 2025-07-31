@@ -3,6 +3,9 @@ import { useState } from 'react'
 import { IonIcon } from '@ionic/react'
 import { chevronDown, mailOutline, logoLinkedin, logoGithub } from 'ionicons/icons'
 import ProfileCard from './ProfileCard/ProfileCard'
+
+import { FaGoogleScholar } from "react-icons/fa6";
+
 export default function Sidebar() {
   const [showContacts, setShowContacts] = useState(false)
 
@@ -56,13 +59,13 @@ export default function Sidebar() {
 
           <ul className="social-list">
             <li className="social-item">
-              <a href="#" className="social-link">
+              <a href="https://www.linkedin.com/in/drjitendrakumarsinha/" className="social-link" target='_blank'>
                 <IonIcon icon={logoLinkedin} />
               </a>
             </li>
             <li className="social-item">
-              <a href="#" className="social-link">
-                <IonIcon icon={logoGithub} />
+              <a href="https://scholar.google.com/citations?user=9OkrGBwAAAAJ&hl=en&oi=ao" className="social-link" target="_blank">
+                <FaGoogleScholar />
               </a>
             </li>
           </ul>
