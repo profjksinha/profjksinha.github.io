@@ -15,7 +15,7 @@ export default function About() {
       </header>
 
       <section className="about-text">
-        <p>
+        <p style={{textAlign:'left !important'}}>
           I am a neuroscientist and Chief Scientific Officer at GloNeuro, 
           driven by a singular mission: to decode the mysteries of the brain and transform research into real-world solutions. 
           With a Ph.D. in Biochemistry and two decades of experience, my work focuses on the intersection of aging, neurodegeneration, 
@@ -33,7 +33,7 @@ export default function About() {
       </section>
 
       <section className="service">
-        <h3 className="h3 service-title">What I'm doing</h3>
+        <h3 className="h3 service-title" style={{textAlign:'left !important'}}>What I'm doing</h3>
         <ul className="service-list">
           {/* Service items here */}
         </ul>
