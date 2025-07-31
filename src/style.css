@@ -6,6 +6,12 @@
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 
+.force-left {
+  text-align: justify !important;
+}
+
+
+
 :root {
 
   /**
