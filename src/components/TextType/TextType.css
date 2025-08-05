@@ -1,0 +1,19 @@
+.text-type {
+  display: inline;
+  white-space: pre; /* respects spaces but avoids unexpected wrapping */
+}
+
+.text-type__content,
+.text-type__cursor {
+  display: inline;
+  vertical-align: baseline;
+}
+
+.text-type__cursor {
+  margin-left: 0.1rem; /* optional: reduce spacing */
+  opacity: 1;
+}
+
+.text-type__cursor--hidden {
+  display: none;
+}
