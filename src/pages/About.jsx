@@ -103,12 +103,7 @@ export default function About() {
 
       </section>
 
-      <section className="clients">
-        <h3 className="h3 clients-title">Skills</h3>
-        <ul className="clients-list has-scrollbar">
-          {/* Skill logos here */}
-        </ul>
-      </section>
+      
     </article>
     </>
   )

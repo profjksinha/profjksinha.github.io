@@ -4,7 +4,7 @@ import { bookOutline } from 'ionicons/icons'
 
 export default function Resume() {
   return (
-    <article className="resume" data-page="resume" style={{ display: 'block', color: 'black' }}>
+    <article className="resume" data-page="resume" style={{ display: 'block'}}>
       <br/><br/>
       <header>
         <h2 className="h2 article-title">Resume</h2>
@@ -55,30 +55,18 @@ export default function Resume() {
             <h4 className="h4 timeline-item-title">Chief Scientific Officer</h4>
             <p className="timeline-text">GloNeuro, Sector 107, Noida, India </p>
             <span>April 2022 – Ongoing</span>
-            <ul className="timeline-text">
-              <li>Responsibility 1</li>
-              <li>Responsibility 2</li>
-            </ul>
           </li>
 
           <li className="timeline-item">
             <h4 className="h4 timeline-item-title">Consultant Neuroscientist</h4>
             <p className="timeline-text">Shiksha Infotech, Bangalore, India</p>
             <span>Apr 2023 – Ongoing</span>
-            <ul className="timeline-text">
-              <li>Responsibility 1</li>
-              <li>Responsibility 2</li>
-            </ul>
           </li>
 
           <li className="timeline-item">
             <h4 className="h4 timeline-item-title">Consultant Neuroscientist</h4>
             <p className="timeline-text">REM42 Technologies, Bangalore, India</p>
             <span>Jun 2022 – Dec 2022</span>
-            <ul className="timeline-text">
-              <li>Responsibility 1</li>
-              <li>Responsibility 2</li>
-            </ul>
           </li>
 
           <li className="timeline-item">
@@ -86,10 +74,6 @@ export default function Resume() {
             <p className="timeline-text">Amity Institute of Neuropsychology and 
 Neurosciences (AINN), Amity University UP, Noida, India</p>
             <span>September 2017 – March 2022r</span>
-            <ul className="timeline-text">
-              <li>Responsibility 1</li>
-              <li>Responsibility 2</li>
-            </ul>
           </li>
 
           <li className="timeline-item">
@@ -97,10 +81,6 @@ Neurosciences (AINN), Amity University UP, Noida, India</p>
             <p className="timeline-text">CSIR - 
 Centre for Cellular and Molecular Biology (CCMB), Hyderabad, India</p>
             <span>January 2016 – August 2017</span>
-            <ul className="timeline-text">
-              <li>Responsibility 1</li>
-              <li>Responsibility 2</li>
-            </ul>
           </li>
 
           <li className="timeline-item">
@@ -121,10 +101,6 @@ New South Wales, Sydney, Australia</li>
             <p className="timeline-text">Dept of Neurophysiology, National 
 Institute of Mental Health And Neuro Sciences, Bangalore, India</p>
             <span>September 2007 – February 2009</span>
-            <ul className="timeline-text">
-              <li>Responsibility 1</li>
-              <li>Responsibility 2</li>
-            </ul>
           </li>
 
           <li className="timeline-item">
@@ -132,10 +108,6 @@ Institute of Mental Health And Neuro Sciences, Bangalore, India</p>
             <p className="timeline-text">Biotech Industrial Training Program of 
 DBT, Government of India & Biotech Consortium India Ltd. (BCIL)</p>
             <span>June 2006 – July 2007</span>
-            <ul className="timeline-text">
-              <li>Responsibility 1</li>
-              <li>Responsibility 2</li>
-            </ul>
           </li>
         </ol>
       </section>

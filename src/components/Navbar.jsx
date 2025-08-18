@@ -3,7 +3,7 @@ export default function Navbar({ activePage, setActivePage }) {
   const pages = [
     { id: 'about', name: 'About' },
     { id: 'resume', name: 'Resume' },
-    { id: 'portfolio', name: 'Portfolio' },
+    { id: 'portfolio', name: 'Publications' },
     { id: 'contact', name: 'Contact' }
   ]
 
