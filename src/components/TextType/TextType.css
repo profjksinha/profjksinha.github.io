@@ -12,6 +12,7 @@
 .text-type__cursor {
   margin-left: 0.1rem; /* optional: reduce spacing */
   opacity: 1;
+  color: #FFC361!important;
 }
 
 .text-type__cursor--hidden {

@@ -874,6 +874,12 @@ main {
   color: #FFC361!important;
 }
 
+.align-force {
+  display: flex !important;
+  align-items: stretch !important;
+  justify-content: center !important;
+}
+
 .timeline-text li {
    display: inline;
   list-style-type: none; /* Remove default bullets */

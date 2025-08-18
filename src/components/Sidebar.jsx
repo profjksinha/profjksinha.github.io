@@ -32,7 +32,7 @@ export default function Sidebar() {
             showUserInfo={true}
             enableTilt={true}
             enableMobileTilt={true}
-            onContactClick={() => 
+            onContactClick={() =>
               window.location.href = "mailto:jksinha.hi@gmail.com?subject=Hello&body=I%20wanted%20to%20contact%20you regarding..."
             }
           />
@@ -47,45 +47,42 @@ export default function Sidebar() {
           />
           <br />
           <br />
+          <div className='align-force'>
+            <ul className="social-list">
+              <li className="social-item">
+                <a href="mailto:jksinha.hi@gmail.com" className="social-link">
+                  <BiLogoGmail />
+                </a>
+              </li>
+              <li className="social-item">
+                <a href="https://www.linkedin.com/in/drjitendrakumarsinha/" className="social-link" target='_blank'>
+                  <IonIcon icon={logoLinkedin} />
+                </a>
+              </li>
+              <li className="social-item">
+                <a href="https://scholar.google.com/citations?user=9OkrGBwAAAAJ&hl=en&oi=ao" className="social-link" target="_blank">
+                  <FaGoogleScholar />
+                </a>
+              </li>
+              <li className="social-item">
+                <a href="https://www.scopus.com/authid/detail.uri?authorId=35800399200" className="social-link" target="_blank">
+                  <SiScopus />
+                </a>
+              </li>
+              <li className="social-item">
+                <a href="https://orcid.org/0000-0002-7444-6932" className="social-link" target="_blank">
+                  <FaOrcid />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
 
 
       </div>
 
 
-      <div className="sidebar-info_more">
 
-
-
-
-        <ul className="social-list">
-          <li className="social-item">
-            <a href="mailto:jksinha.hi@gmail.com" className="social-link">
-              <BiLogoGmail />
-            </a>
-          </li>
-          <li className="social-item">
-            <a href="https://www.linkedin.com/in/drjitendrakumarsinha/" className="social-link" target='_blank'>
-              <IonIcon icon={logoLinkedin} />
-            </a>
-          </li>
-          <li className="social-item">
-            <a href="https://scholar.google.com/citations?user=9OkrGBwAAAAJ&hl=en&oi=ao" className="social-link" target="_blank">
-              <FaGoogleScholar />
-            </a>
-          </li>
-          <li className="social-item">
-            <a href="https://www.scopus.com/authid/detail.uri?authorId=35800399200" className="social-link" target="_blank">
-              <SiScopus />
-            </a>
-          </li>
-          <li className="social-item">
-            <a href="https://orcid.org/0000-0002-7444-6932" className="social-link" target="_blank">
-              <FaOrcid />
-            </a>
-          </li>
-        </ul>
-      </div>
 
     </aside>
   )
