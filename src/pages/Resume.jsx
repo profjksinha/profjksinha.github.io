@@ -90,7 +90,7 @@ Institute of Nutrition (NIN), Hyderabad, India</p>
             <span>July 2009 – December 2015</span>
             <ul className="timeline-text">
               <li>6 months as <strong className='force-bold'>IBRO APRC Research Exchange Fellow / UNSW Visiting Fellow</strong> at University of 
-New South Wales, Sydney, Australia</li>
+New South Wales, Sydney, Australia</li><br/>
               <li> 4 months as <strong className='force-bold'>Young Investigator Fellow & Ricerca Assegnista 
 (Research Fellow)</strong> at Università degli Studi di Verona, Verona, Italy</li>
             </ul>

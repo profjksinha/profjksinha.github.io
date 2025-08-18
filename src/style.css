@@ -865,7 +865,17 @@ main {
   margin-left: -1em; /* Adjust as needed */
 }
 
+.anchor-text {
+  color: white !important;
+  font-weight: bold!important;
+}
+
+.anchor-text:hover {
+  color: #FFC361!important;
+}
+
 .timeline-text li {
+   display: inline;
   list-style-type: none; /* Remove default bullets */
   padding-left: 1em;     /* Add some padding to align text */
 }
