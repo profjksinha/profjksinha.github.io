@@ -31,9 +31,9 @@ export default function Sidebar() {
             avatarUrl="/images/jks.jpg"
             showUserInfo={true}
             enableTilt={true}
-            enableMobileTilt={false}
+            enableMobileTilt={true}
             onContactClick={() => 
-              window.location.href = "mailto:jksinha@gloneuro.org?subject=Hello&body=I%20wanted%20to%20contact%20you regarding..."
+              window.location.href = "mailto:jksinha.hi@gmail.com?subject=Hello&body=I%20wanted%20to%20contact%20you regarding..."
             }
           />
 
