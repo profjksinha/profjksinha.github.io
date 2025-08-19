@@ -57,23 +57,23 @@ export default function Resume() {
             <span>April 2022 – Ongoing</span>
           </li>
 
-          <li className="timeline-item">
+          {/* <li className="timeline-item">
             <h4 className="h4 timeline-item-title">Consultant Neuroscientist</h4>
             <p className="timeline-text">Shiksha Infotech, Bangalore, India</p>
             <span>Apr 2023 – Ongoing</span>
-          </li>
+          </li> */}
 
-          <li className="timeline-item">
+          {/* <li className="timeline-item">
             <h4 className="h4 timeline-item-title">Consultant Neuroscientist</h4>
             <p className="timeline-text">REM42 Technologies, Bangalore, India</p>
             <span>Jun 2022 – Dec 2022</span>
-          </li>
+          </li> */}
 
           <li className="timeline-item">
             <h4 className="h4 timeline-item-title"> Assistant Professor (Grade III)</h4>
             <p className="timeline-text">Amity Institute of Neuropsychology and
               Neurosciences (AINN), Amity University UP, Noida, India</p>
-            <span>September 2017 – March 2022r</span>
+            <span>September 2017 – March 2022</span>
           </li>
 
           <li className="timeline-item">

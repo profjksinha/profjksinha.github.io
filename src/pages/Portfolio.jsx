@@ -19,7 +19,10 @@ const PublicationItem = React.memo(({ item }) => (
       ) : (
         item.title
       )}
-      {/* pdf Link */}
+      
+    </h4>
+    {item.journal && <p className="timeline-text">{item.journal}</p>}
+    {/* pdf Link */}
       {item.pdf !== "#" ? (
         <a
           className="anchor-text"
@@ -33,8 +36,6 @@ const PublicationItem = React.memo(({ item }) => (
       ) : (
         ""
       )}
-    </h4>
-    {item.journal && <p className="timeline-text">{item.journal}</p>}
     {item.authors && (
       <p className="timeline-text" style={{ fontStyle: "italic" }}>
         {item.authors}
