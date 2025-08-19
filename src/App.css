@@ -18,3 +18,8 @@
 .force-bold {
   font-weight: bold !important;
 }
+
+.button-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
