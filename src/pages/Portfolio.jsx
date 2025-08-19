@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useMemo } from "react";
 import * as XLSX from "xlsx";
+import { FaRegFilePdf } from "react-icons/fa6";
 
 // Memoized publication item component
 const PublicationItem = React.memo(({ item }) => (
@@ -18,6 +19,20 @@ const PublicationItem = React.memo(({ item }) => (
       ) : (
         item.title
       )}
+      {/* pdf Link */}
+      {item.pdf !== "#" ? (
+        <a
+          className="anchor-text"
+          href={item.pdf}
+          target="_blank"
+          rel="noreferrer"
+          style={{ color: "#0066cc", display:'inline' }}
+        >
+          <FaRegFilePdf />
+        </a>
+      ) : (
+        ""
+      )}
     </h4>
     {item.journal && <p className="timeline-text">{item.journal}</p>}
     {item.authors && (
@@ -25,6 +40,14 @@ const PublicationItem = React.memo(({ item }) => (
         {item.authors}
       </p>
     )}
+    {/* impact factor */}
+    {item.ifactor != "#" ? (
+      <p className="timeline-text">
+        Impact Factor {item.ifactor}
+      </p>
+    ): (
+        ""
+      )}
     {item.year && <span style={{ display: "block", marginTop: "5px" }}>{item.year}</span>}
   </li>
 ));
@@ -45,11 +68,13 @@ export default function Portfolio() {
       return jsonData.slice(1)
         .filter(row => row.some(cell => cell != null && cell !== ''))
         .map((row) => ({
-          title: row[0] || "Untitled Publication",
+          title: row[2] || "Untitled Publication",
           journal: row[1] || "",
-          authors: row[2] || "Anonymous",
-          year: row[3] || "",
-          link: row[4] || "#",
+          authors: row[3] || "Anonymous",
+          year: row[0] || "",
+          link: row[7] || "#",
+          pdf: row[20] || "#",
+          ifactor: row[10] || "#"
         }));
     };
   }, []);
