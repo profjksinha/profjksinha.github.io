@@ -4,7 +4,7 @@ import { bookOutline } from 'ionicons/icons'
 
 export default function Resume() {
   return (
-    <article className="resume" data-page="resume" style={{ display: 'block' }}>
+    <article className="resume active" data-page="resume" style={{ display: 'block' }}>
       <br /><br />
       <header>
         <h2 className="h2 article-title">Resume</h2>

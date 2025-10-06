@@ -110,7 +110,7 @@ export default function Portfolio() {
 
   if (loading) {
     return (
-      <article className="portfolio" data-page="portfolio" style={{ display: "block", color: "black", padding: "20px" }}>
+      <article className="portfolio active" data-page="portfolio" style={{ display: "block", color: "black", padding: "20px" }}>
         <h2 className="h2 article-title">Publications</h2>
         <p>Loading publications...</p>
       </article>
@@ -119,7 +119,7 @@ export default function Portfolio() {
 
   if (error) {
     return (
-      <article className="portfolio" data-page="portfolio" style={{ display: "block", color: "black", padding: "20px" }}>
+      <article className="portfolio active" data-page="portfolio" style={{ display: "block", color: "black", padding: "20px" }}>
         <h2 className="h2 article-title">Publications</h2>
         <div style={{ color: "red" }}>
           Error: {error}
@@ -130,7 +130,7 @@ export default function Portfolio() {
 
   return (
     <article
-      className="portfolio"
+      className="portfolio active"
       data-page="portfolio"
       style={{ display: "block", color: "black" }}
     >
